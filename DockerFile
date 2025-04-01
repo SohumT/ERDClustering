@@ -1,0 +1,7 @@
+FROM python:3.8.5
+
+# Add files to container
+COPY control.py edit_distance.py mod4_cluster.py mod5_clustering.py ocr.py main.py requirements.txt ./
+
+# Install requirments.txt
+RUN pip install -r requirements.txt
