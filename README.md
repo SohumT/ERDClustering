@@ -128,8 +128,7 @@ Clustering results are evaluated using the Rand Index, which measures the simila
 
 ## Project Structure for Set-up
 
-- Please note that using  `eval.py` will require you to make path modifications to the code 
-based on where your datasets are located. Some examples have been left in the code comments.
+- Please note that using `eval.py` will require you to make path modifications to the `dataset_parent_path` in the `main` function depending on where your datasets are located. Some examples have been left in the code comments.
 
 ```
 .
